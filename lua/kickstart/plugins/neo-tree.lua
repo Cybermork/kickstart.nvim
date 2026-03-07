@@ -18,6 +18,8 @@ return {
   ---@module 'neo-tree'
   ---@type neotree.Config
   opts = {
+    enable_git_status = true,
+    enable_diagnostics = true,
     filesystem = {
       window = {
         mappings = {
